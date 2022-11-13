@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "caption": "Img_1",
+      "url": "https://placeimg.com/440/260/any"
+    },
+    {
+      "caption": "Img_2",
+      "url": "https://placeimg.com/440/260/tech"
+    },
+    {
+      "caption": "Img_3",
+      "url": "https://placeimg.com/440/260/animals"
+    },
+    {
+      "caption": "Img_4",
+      "url": "https://placeimg.com/440/260/arch"
+    },
+    {
+      "caption": "Img_5",
+      "url": "https://placeimg.com/440/260/nature"
+    },
+    {
+      "caption": "Img_6",
+      "url": "https://placeimg.com/440/260/people"
+    }
+  ]
+}

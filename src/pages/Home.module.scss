@@ -1,0 +1,34 @@
+@import "../assets/variables.scss";
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background: $primary;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.gallery_wrapper {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}

@@ -1,0 +1,13 @@
+@import "../assets/variables.scss";
+
+.footer {
+    height: $header-height;
+    background: $bg2;
+    color: $text2;
+    position: fixed;
+    align-items: center;
+    display: inline-grid;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}

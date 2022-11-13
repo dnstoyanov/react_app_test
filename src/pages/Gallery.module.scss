@@ -1,0 +1,23 @@
+@import "../assets/variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+}
+
+.wrapper img {
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}

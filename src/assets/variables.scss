@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+$Roboto: 'Roboto', sans-serif;
+
+$bg: rgb(255, 255, 255);
+$bg2: rgb(0, 0, 0);
+$text: rgb(15, 15, 15);
+$text2: rgb(240, 240, 240);
+$primary: rgb(22, 210, 247);
+
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+$borderRadius: 8px;
+$border: 1px solid #cccccc;
+
+$header-height: 90px;
+
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+$xl: 75em;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: $md) {
+            @content;
+        }
+    }
+}
